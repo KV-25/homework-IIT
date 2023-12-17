@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>image</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            img {
+             border: 5px solid var(--btnBg);
+            }
+        </style>
+        <link rel="icon" href="images/goslingicon.png" type="image/png">
+    </head>
+
+    <body class="black-theme">
+        <!--Переключатель стилей-->
+    <h3 class="btntxt">Стили</h3>
+    <ul class="btnlst">
+        <li>1.Бегущий по лезвию</li>
+        <li>2.Драйв</li>
+    </ul>
+    <div>
+        <button class="btn">BR</button>
+      </div>
+    <script src="app.js"></script>
+
+    <!--Домой-->
+    <div><button class="btnhome" onclick="document.location='mainpage.html'">Домой</button></div>
+
+    <h1>Музыка</h1>
+    <img src="images/music.gif" width="500">
+
+    <audio controls title="Nightcall" style="position:absolute; top: 400px; left: 10px;" autoplay>
+        <source src="music/Kavinsky-Nightcall.mp3" type="audio/mpeg">
+        Отсутствует поддержка вашего браузера
+    </audio>
+    <audio controls title="Memory" style="position:absolute; top: 500px; left: 10px;">
+        <source src="music/Memory-Hans_Zimmer (Bladerunner2049).mp3" type="audio/mpeg">
+        Отсутсвует поддержка вашего браузера
+    </audio>
+    <audio controls title="Gosling" style="position:absolute; top: 600px; left: 10px;" preload="none">
+        <source src="music/Gosling.mp3" type="audio/mpeg">
+        Отсутсвует поддержка вашего браузера
+    </audio>
+    
+    <footer>Круглов В.Д. БИК2301. Все права защищены.</footer>
+    </body>
+</html>
